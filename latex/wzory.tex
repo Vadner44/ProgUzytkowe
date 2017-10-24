@@ -1,0 +1,84 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\floatname{algorithm}{Algorytm}
+\renewcommand{\algorithmicrequire}
+{\textbf{Założenia wstępne:}}
+\renewcommand{\algorithmicensure}
+{\textbf{Na wyjściu:}}
+\renewcommand{\algorithmicwhile}
+{\textbf{Dopóki}}
+\renewcommand{\algorithmicdo}
+{\textbf{wykonuj}}
+\renewcommand{\algorithmicif}
+{\textbf{Jeśli}}
+\renewcommand{\algorithmicthen}
+{\textbf{wtedy}}
+\renewcommand{\algorithmicelse}
+{\textbf{Inaczej}}
+
+
+\title{Wzory matematczne}
+\author{Patryk Kowalewski}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Kilka wzorów matematycznych użytych w \LaTeX.
+\end{abstract}
+
+\section{Twierdzenie Pitagorasa}
+\newtheorem*{twr}{Twierdzenie}
+\theoremstyle{plain}
+\begin{twr}[Pitagorasa] 
+W dowolnym trójkącie prostokątnym suma kwadratów długości przyprostokątnych jest równa kwadratowi długości przeciwprostokątnej tego trójkąta. 
+Zgodnie z oznaczeniami na rysunku obok zachodzi tożsamość:
+$$a^{2}+b^{2}=c^{2}$$
+Geometrycznie oznacza to, że jeżeli na bokach trójkąta prostokątnego zbudujemy kwadraty, 
+to suma pól kwadratów zbudowanych na przyprostokątnych tego trójkąta będzie równa polu kwadratu zbudowanego na przeciwprostokątnej.
+
+\section{Inne Wzory}
+
+$$ \lim_{x \to 0} \frac{\sin x}{\tan x}=1$$
+
+$$\lim_{n \to \infty}\sum_{k=1}^n \frac{1}{k^2}= \frac{\pi^2}{6}$$
+
+\begin{displaymath}
+sign(x) = \left\{ \begin{array}{ll}
+1, & \textrm{jeśli $x>0$}\\
+0, & \textrm{jeśli $x=0$}\\
+-1, & \textrm{jeśli $x<1$}\\
+\end{array} \right.
+\end{displaymath}
+
+$$a_{1} x^{2} e^{-\alpha t}
+a^{3}_{ij} e^{x^2} \neq {e^x}^2$$
+
+\section{Algorytm}
+
+\begin{algorithm}
+\caption{Obliczenie $x^n$}
+\begin{algorithmic}[2]
+\REQUIRE $n\ge 0$
+\ENSURE $a=x^n$
+\STATE $k\leftarrow n$; $a\leftarrow 1$; $b\leftarrow x$;
+\WHILE[Niezmiennik: $x^n=a\cdot b^k$]{$k>0$}
+\IF{$k$ jest liczbą parzystą}
+\STATE $k\leftarrow k/2$;
+\STATE $b\leftarrow b\cdot b$;
+\ELSE[$k$ jest liczbą nieparzystą]
+\STATE $k\leftarrow k-1$;
+\STATE $a\leftarrow a\cdot b$;
+\ENDIF
+\ENDWHILE
+\end{algorithmic}
+\end{algorithm}
+
+
+\end{document}
