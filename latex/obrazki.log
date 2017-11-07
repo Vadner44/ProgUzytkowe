@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.27)  7 NOV 2017 13:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.27)  7 NOV 2017 13:28
 entering extended mode
 **obrazki.tex
 (D:\vadner\ProgUzytkowe\latex\obrazki.tex
@@ -397,43 +397,22 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 40.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <5> on input line 52.
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.52 \footnote{Patrz Rysunek \ref{Fab~1}}
-                                         
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Reference `\unhbox \voidb@x \penalty \@M \ ' on page 2 undefined on input line 52.
-
-! Extra \endcsname.
-\ref ...pandafter \@setref \csname r@#1\endcsname 
-                                                  \@firstoftwo {#1}
-l.52 \footnote{Patrz Rysunek \ref{Fab~1}}
-                                         
-I'm ignoring this, since I wasn't doing a \csname.
-
-[2 <D:/vadner/ProgUzytkowe/latex/fab1.jpg>] (D:\vadner\ProgUzytkowe\latex\obrazki.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[2 <D:/vadner/ProgUzytkowe/latex/fab1.jpg>] (D:\vadner\ProgUzytkowe\latex\obrazki.aux) ) 
 Here is how much of TeX's memory you used:
- 1590 strings out of 494045
- 20318 string characters out of 3145969
+ 1588 strings out of 494045
+ 20298 string characters out of 3145969
  71040 words of memory out of 3000000
- 4874 multiletter control sequences out of 15000+200000
- 15236 words of font info for 43 fonts, out of 3000000 for 9000
+ 4872 multiletter control sequences out of 15000+200000
+ 14730 words of font info for 42 fonts, out of 3000000 for 9000
  717 hyphenation exceptions out of 8191
  27i,8n,24p,798b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Users/local/AppData/Roaming/MiKTeX/2.9/font
-s/type1/public/pl/plbx10.pfb><C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/local
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/publi
-c/pl/plr12.pfb><C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr17.pfb><C:/Users/local/AppData/Roamin
-g/MiKTeX/2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr8.pfb>
-Output written on obrazki.pdf (2 pages, 541428 bytes).
+{C:/Users/local/AppData/Roaming/
+MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx10.pfb><C:/U
+sers/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/
+type1/public/pl/plr10.pfb><C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/local/App
+Data/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr17.pfb><C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl
+/plr7.pfb><C:/Users/local/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr8.pfb>
+Output written on obrazki.pdf (2 pages, 540717 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
