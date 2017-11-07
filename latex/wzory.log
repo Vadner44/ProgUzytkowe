@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2014.11.4)  24 OCT 2017 14:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2014.11.4)  7 NOV 2017 11:52
 entering extended mode
 **wzory.tex
 (D:\vadner\ProgUzytkowe\latex\wzory.tex
@@ -375,13 +375,13 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 33.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <12> on input line 42.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
  [1
 
 ]
@@ -392,7 +392,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \end{document}
+l.98 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -404,12 +404,12 @@ or  <return>  to continue without it.
 ### semi simple group (level 1) entered at line 39 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 1106 strings out of 494046
- 13403 string characters out of 3145992
- 67330 words of memory out of 3000000
- 4405 multiletter control sequences out of 15000+200000
- 15559 words of font info for 44 fonts, out of 3000000 for 9000
+ 1110 strings out of 494046
+ 13441 string characters out of 3145992
+ 69330 words of memory out of 3000000
+ 4407 multiletter control sequences out of 15000+200000
+ 16576 words of font info for 46 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  23i,9n,24p,175b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on wzory.dvi (2 pages, 4384 bytes).
+Output written on wzory.dvi (2 pages, 5144 bytes).
