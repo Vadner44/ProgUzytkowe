@@ -1,6 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\beamer@sectionintoc {1}{\IeC {\.Z}yciorys}{3}{0}{1}
-\beamer@sectionintoc {2}{Tw\IeC {\'o}rczo\IeC {\'s}\IeC {\'c}}{8}{0}{2}
-\beamer@sectionintoc {3}{Publikacje}{10}{0}{3}
-\beamer@sectionintoc {4}{Koniec}{20}{0}{4}
-\beamer@sectionintoc {5}{Bibliografia}{21}{0}{5}
